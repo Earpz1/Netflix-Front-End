@@ -48,12 +48,6 @@ function NavigationBar() {
             <div className="nav-link">
               <Link to="/">Home</Link>
             </div>
-            <div className="nav-link">
-              <Link to="/tvShows">TV Shows</Link>
-            </div>
-            <div className="nav-link">
-              <Link to="/movies">Movies</Link>
-            </div>
           </Nav>
           <Form className="d-flex">
             <FormControl
