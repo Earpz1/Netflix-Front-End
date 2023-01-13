@@ -12,7 +12,7 @@ const MoviePage = () => {
   const fetchMovie = async () => {
     try {
       let response = await fetch(
-        'http://localhost:3001/medias/' + params.imdbID,
+        'https://netflix-be-production-48e1.up.railway.app/medias/' + params.imdbID,
       )
 
       if (response.ok) {

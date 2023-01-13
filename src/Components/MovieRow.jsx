@@ -16,7 +16,8 @@ const MovieRow = (props) => {
   const fetchMovies = async () => {
     try {
       let response = await fetch(
-        'http://localhost:3001/medias/category/' + category,
+        'https://netflix-be-production-48e1.up.railway.app/medias/category/' +
+          category,
       )
 
       if (response.ok) {
