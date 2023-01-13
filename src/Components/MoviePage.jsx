@@ -12,7 +12,8 @@ const MoviePage = () => {
   const fetchMovie = async () => {
     try {
       let response = await fetch(
-        'https://netflix-be-production-48e1.up.railway.app/medias/' + params.imdbID,
+        'https://netflix-be-production-48e1.up.railway.app/medias/' +
+          params.imdbID,
       )
 
       if (response.ok) {
@@ -58,7 +59,9 @@ const MoviePage = () => {
                 <b>Actors:</b> {movie.Actors}
               </ListGroup.Item>
               <ListGroup.Item>
-                <a href={`http://localhost:3001/medias/${movie.imdbID}/pdf`}>
+                <a
+                  href={`https://netflix-be-production-48e1.up.railway.app/medias/${movie.imdbID}/pdf`}
+                >
                   Export as PDF
                 </a>
               </ListGroup.Item>
