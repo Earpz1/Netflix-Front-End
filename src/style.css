@@ -1,0 +1,66 @@
+.App {
+  height: auto;
+  background-color: black;
+  min-height: 100%;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-background {
+  background-color: rgb(0, 0, 0);
+}
+
+h3 {
+  color: white;
+}
+
+h5 {
+  color: white;
+}
+
+.movie-tile {
+  padding-left: 10px;
+  object-fit: fill;
+  width: 300px;
+}
+
+.movie-tile:hover {
+  opacity: 1;
+  transition: 0.3s;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.carousel-indicators li {
+  visibility: hidden;
+}
+
+.movie-tiles {
+  display: flex;
+
+  height: 200px;
+  justify-content: space-evenly;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  min-height: 30vh;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: gray;
+}
+
+.moviePage {
+  height: auto;
+}
+
+.movie-image {
+  width: 500px;
+  height: 700px;
+}
